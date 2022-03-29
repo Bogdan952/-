@@ -1,4 +1,4 @@
-﻿namespace Tasks;
+﻿//namespace Tasks;
 //Пользователь вводит с клавиатуры расстояние,
 //расход бензина на 100 км и стоимость трех 
 //видов бензина.
@@ -79,5 +79,5 @@ public class Task1
 
         Thread.Sleep(20000);
         Console.Clear();
-    }
+   }
 }
