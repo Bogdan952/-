@@ -3,24 +3,17 @@ public class Task4
 {
     public void Tasks()
     {
-        int height = 10 ;
+        string symbol = "#################";
+        string space = " ";
 
-        for (int i = 0; i < height; i++)
+        for (int i = 0; i < 10; i++)
         {
-            for (int b = 0; b <= i; b++)
-            {
-                Console.Write('*');
-            }
+            Console.Write(space);
+            Console.Write(symbol);
             Console.WriteLine();
+            symbol = symbol.Remove(0, 2);
+            space += " ";
         }
         Console.ReadLine();
-
-
-
-
-
-
-
-
     }
 }
